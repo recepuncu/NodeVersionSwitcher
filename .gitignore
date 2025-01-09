@@ -1,0 +1,32 @@
+# .NET Core
+# Tüm bin ve obj klasörlerini dışarıda bırak
+bin/
+obj/
+
+# Kullanıcıya özgü dosyalar
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# .NET Core SDK ve araçları tarafından oluşturulan dosyalar
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio için kullanıcıya özgü dosyalar
+.vs/
+.vscode/
+
+# .NET Core çalışma zamanını dahil etme
+dotnet-compile*
+dotnet-cache
+
+# NuGet Paketler
+*.nupkg
+
+# Log dosyaları
+*.log
+
+# Yedekleme dosyaları
+*~

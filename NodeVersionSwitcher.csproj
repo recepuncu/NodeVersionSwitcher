@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>    
+    <Title>Node Version Switcher</Title>
+    <Description>A Windows system tray application that helps you quickly switch between different Node.js versions installed via NVM (Node Version Manager) for Windows. The app provides easy access to your installed Node versions through a context menu in the system tray, allowing seamless version switching with a single click.</Description>
+    <Copyright>Copyright © 2025 Recep UNCU. All rights reserved.</Copyright>
+    <PackageIcon>nodejs-mini.png</PackageIcon>
+    <StartupObject>NodeVersionSwitcher.Program</StartupObject>
+    <ApplicationIcon>nodejs.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="nodejs-mini.png" />
+    <None Remove="nodejs.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="nodejs-mini.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="nodejs.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
