@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/5219a431-7702-4588-bbfb-dc19a525f4be)
 # Node Version Switcher  
 
 Easily manage and switch between multiple Node.js versions using this lightweight tray application.  
