@@ -6,6 +6,7 @@
 If you find Node Version Switcher useful and want to see more features, updates, and support for macOS/Linux in the future, consider [sponsoring me on GitHub](https://github.com/sponsors/recepuncu). Your contributions help keep this project alive and growing! ❤️  
 
 ---
+![image](https://github.com/user-attachments/assets/5219a431-7702-4588-bbfb-dc19a525f4be)
 
 Easily manage and switch between multiple Node.js versions using this lightweight tray application.  
 
