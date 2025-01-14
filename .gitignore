@@ -30,3 +30,6 @@ dotnet-cache
 
 # Yedekleme dosyaları
 *~
+
+# ASP.NET Publish
+PublishProfiles/
