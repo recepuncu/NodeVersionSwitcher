@@ -1,3 +1,5 @@
+using NodeVersionSwitcher.UI.Tray;
+
 namespace NodeVersionSwitcher;
 
 internal static class Program
