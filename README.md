@@ -1,12 +1,10 @@
-![GitHub Sponsors](https://img.shields.io/badge/Sponsor-Node%20Version%20Switcher-blue?style=flat&logo=github)
-
-# Node Version Switcher  
+# Node Version Switcher
 
 🚀 **Support the Project!**  
 If you find Node Version Switcher useful and want to see more features, updates, and support for macOS/Linux in the future, consider [sponsoring me on GitHub](https://github.com/sponsors/recepuncu). Your contributions help keep this project alive and growing! ❤️  
 
 ---
-![image](https://github.com/user-attachments/assets/5219a431-7702-4588-bbfb-dc19a525f4be)
+![image](https://github.com/user-attachments/assets/b98cccb9-b76e-48cd-9686-ac886901eb7d)
 
 Easily manage and switch between multiple Node.js versions using this lightweight tray application.  
 
@@ -18,6 +16,17 @@ This application integrates with **NVM (Node Version Manager)** to provide a use
 - Intuitive system tray icon for quick access.  
 - Option to start the application at system startup.  
 - Lightweight and easy to use.  
+- **New UI Components:**  
+  - Added `NodeVersionsForm` for displaying and installing Node.js versions with a filter box, data grid, and progress bar.
+
+## Recent Updates  
+### Refactor and Add UI for Node.js Version Management  
+**Significant refactor and modularization of the codebase:**  
+- Removed `NodeVersionSwitcherContext.cs` and split functionalities into multiple helper classes and services.  
+- Added new helper classes for HTTP requests, notifications, Node.js version management, regular expressions, registry interactions, startup management, symbolic link creation, and system information retrieval.  
+- Introduced `NodeVersionInfo` model and `INodeVersionDownloader` interface.  
+- Updated `NodeVersionSwitcher.csproj` with new properties for versioning and language.  
+- Added `FolderProfile.pubxml` for project publishing.  
 
 ## Requirements  
 - **NVM for Windows** installed on your system.  
